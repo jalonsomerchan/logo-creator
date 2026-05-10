@@ -1,7 +1,7 @@
 {
-  "name": "js-template",
+  "name": "logo-creator",
   "version": "1.0.0",
-  "description": "Template moderno para proyectos HTML, CSS y JavaScript con Tailwind CSS.",
+  "description": "Generador visual de logos geométricos con retícula y exportación a SVG/PNG.",
   "type": "module",
   "private": false,
   "scripts": {
@@ -13,13 +13,13 @@
     "format:check": "prettier . --check"
   },
   "keywords": [
-    "html",
-    "css",
-    "javascript",
-    "tailwindcss",
+    "logo",
+    "svg",
+    "png",
+    "canvas",
+    "geometric",
     "vite",
-    "template",
-    "frontend"
+    "tailwindcss"
   ],
   "author": "Jorge Alonso",
   "license": "MIT",
