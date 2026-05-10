@@ -1,0 +1,106 @@
+.toolbar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  margin-bottom: .9rem;
+  padding: .15rem .2rem .75rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.toolbar-title {
+  min-width: 0;
+}
+
+.toolbar-title strong {
+  display: block;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: -.04em;
+}
+
+.toolbar-title span {
+  display: block;
+  margin-top: .08rem;
+  color: var(--muted);
+  font-size: .76rem;
+  font-weight: 700;
+}
+
+.toolbar-collapse {
+  min-width: 2.55rem;
+  min-height: 2.55rem;
+  border-radius: .85rem;
+}
+
+.right-panel.is-collapsed {
+  width: 4.85rem;
+  padding: .7rem;
+  overflow: visible;
+}
+
+.right-panel.is-collapsed .toolbar-title,
+.right-panel.is-collapsed .toolbar-body,
+.right-panel.is-collapsed .panel-section {
+  display: none;
+}
+
+.right-panel.is-collapsed .toolbar-header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  justify-content: center;
+}
+
+.icon-only-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .55rem;
+}
+
+.tool-button i,
+.mode-button i,
+.icon-button i,
+.export-button i,
+.secondary-button i,
+.danger-button i,
+.toolbar-collapse i,
+.brand-mark i,
+.mobile-toggle i {
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.brand-card .brand-title span {
+  background: linear-gradient(180deg, transparent 56%, #ffd84d 0);
+}
+
+.brand-meta {
+  margin: .08rem 0 0;
+  color: var(--muted);
+  font-size: .78rem;
+  font-weight: 700;
+}
+
+.help-grid {
+  display: grid;
+  gap: .35rem;
+}
+
+.help-grid span {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media (max-width: 900px) {
+  .right-panel.is-collapsed {
+    width: auto;
+    max-height: 4.2rem;
+    transform: none;
+  }
+
+  .right-panel.is-collapsed.is-open {
+    max-height: 4.2rem;
+  }
+}
