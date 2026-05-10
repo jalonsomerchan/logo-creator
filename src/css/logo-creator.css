@@ -33,6 +33,34 @@
   border-radius: .85rem;
 }
 
+.toolbar-body {
+  display: flex;
+  flex-direction: column;
+  gap: .9rem;
+}
+
+.toolbar-body .panel-section {
+  margin-top: 0;
+}
+
+/* Workflow order: choose tool → manage selection → style → tune grid → save/export → help. */
+.toolbar-body .panel-section:nth-child(1) { order: 1; }
+.toolbar-body .panel-section:nth-child(4) { order: 2; }
+.toolbar-body .panel-section:nth-child(2) { order: 3; }
+.toolbar-body .panel-section:nth-child(3) { order: 4; }
+.toolbar-body .panel-section:nth-child(5) { order: 5; }
+.toolbar-body .panel-section:nth-child(6) { order: 6; }
+
+.toolbar-body .panel-section:nth-child(1),
+.toolbar-body .panel-section:nth-child(4) {
+  border-color: rgba(17, 17, 17, .16);
+  background: rgba(255, 255, 255, .82);
+}
+
+.toolbar-body .panel-section:nth-child(5) {
+  border-color: rgba(59, 130, 246, .20);
+}
+
 .right-panel.is-collapsed {
   width: 4.85rem;
   padding: .7rem;
