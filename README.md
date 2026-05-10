@@ -1,4 +1,4 @@
-# Logo Lattice
+# Logo Creator by AlonSofware
 
 Generador de logos geométricos inspirado en editores de retícula. Permite crear figuras vectoriales uniendo puntos, trabajar sobre una cuadrícula cuadrada o isométrica y exportar el resultado como SVG o PNG.
 
@@ -6,8 +6,12 @@ Generador de logos geométricos inspirado en editores de retícula. Permite crea
 
 - Editor visual a pantalla completa.
 - Retícula cuadrada o isométrica con tamaño configurable.
+- Ajuste automático al punto más cercano de la retícula.
+- Vista previa de la línea mientras mueves el ratón.
 - Herramientas de dibujo, recorte, selección y desplazamiento.
-- Capas de figuras con duplicado, borrado, copiar y pegar.
+- Barra de herramientas con iconos de Bootstrap Icons.
+- Barra de herramientas contraíble y expandible.
+- Capas de figuras con duplicado, borrado, copiar, pegar y mandar al frente.
 - Personalización de relleno, trazo, grosor y opacidad.
 - Zoom con rueda y desplazamiento de la vista.
 - Exportación limpia a SVG y PNG.
@@ -19,6 +23,7 @@ Generador de logos geométricos inspirado en editores de retícula. Permite crea
 - Vite
 - JavaScript ES Modules
 - SVG nativo para edición vectorial
+- Bootstrap Icons
 - Tailwind CSS v4
 - ESLint
 - Prettier
@@ -107,15 +112,22 @@ logos.alon.one
 
 ## Atajos
 
-- `1`: seleccionar.
-- `2`: dibujar.
-- `3` o `Espacio`: mover la vista.
-- `Enter`: cerrar la figura activa.
-- `Esc`: cancelar la figura activa.
+- `V` o `1`: seleccionar.
+- `P` o `2`: dibujar.
+- `C`: recortar.
+- `H` o `3`: mover la vista.
+- `G`: alternar retícula cuadrada/isométrica.
+- Flechas: mover figura seleccionada.
+- `Shift + flechas`: mover la vista.
+- `Alt + flechas`: movimiento fino.
+- `Enter`: cerrar figura o recorte activo.
+- `Esc`: cancelar puntos activos.
 - `Ctrl/Cmd + Z`: deshacer.
 - `Ctrl/Cmd + Y`: rehacer.
 - `Ctrl/Cmd + C`: copiar figura seleccionada.
 - `Ctrl/Cmd + V`: pegar figura copiada.
+- `Delete`: borrar figura seleccionada.
+- `]`: mandar la figura seleccionada al frente.
 
 ## Licencia
 
