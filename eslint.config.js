@@ -3,7 +3,7 @@ import globals from 'globals';
 
 export default [
   {
-    ignores: ['dist/**', 'src/js/app2.js', 'src/js/app3.js'],
+    ignores: ['dist/**', 'src/js/app2.js', 'src/js/app3.js', 'src/js/app4.js', 'src/js/app5.js'],
   },
   js.configs.recommended,
   {
