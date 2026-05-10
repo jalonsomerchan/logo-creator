@@ -25,6 +25,7 @@
   "license": "MIT",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.0",
+    "bootstrap-icons": "^1.11.3",
     "tailwindcss": "^4.1.0"
   },
   "devDependencies": {
